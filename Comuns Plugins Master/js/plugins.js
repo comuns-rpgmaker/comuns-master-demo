@@ -22,7 +22,7 @@ var $plugins =
 {"name":"--------------------------------","status":false,"description":"------------------------------------------------------------------","parameters":{}},
 {"name":"GabeMZ_StopAudioOnBlur","status":true,"description":"[v1.0.0] Stops playing audio when game window is blurred.","parameters":{}},
 {"name":"================================","status":false,"description":"==================================================================","parameters":{}},
-{"name":"IgnisTextDatabase","status":true,"description":"Text Database v.1.0.1","parameters":{"defaultFolder":"texts","textFiles":"[\"eng\",\"ptbr\"]","defaultFile":"eng"}},
+{"name":"IgnisTextDatabase","status":true,"description":"Text Database v.1.0.1","parameters":{"defaultFolder":"texts","textFiles":"[\"eng\",\"pt-br\"]","defaultFile":"eng"}},
 {"name":"--------------------------------","status":false,"description":"------------------------------------------------------------------","parameters":{}},
 {"name":"IgnisItemGoldPopup","status":true,"description":"Item and Gold Popup v.1.0.0","parameters":{"switchPopUp":"true","windowWidth":"300","windowHeight":"56","dynamic":"true","outlineSize":"3","fontSize":"24","fontName":"","fontColorGold":"FFFFFF","outlineColorGold":"000000","fontColorItem":"FFFFFF","outlineColorItem":"000000","fontColorWeapon":"FFFFFF","outlineColorWeapon":"000000","fontColorEquip":"FFFFFF","outlineColorEquip":"000000"}},
 {"name":"IgnisFollowersRotation","status":true,"description":"Adds a camera to battle and allows to control it.","parameters":{"rotateUp":"pageup","rotateDown":"pagedown"}},
