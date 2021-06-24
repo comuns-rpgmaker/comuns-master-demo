@@ -1,0 +1,23 @@
+{
+
+    "scenes": {
+        "scene1": {
+            "quote1": "Que lugar é esse?",
+            "quote2": "O que aconteceu? Eu estava cuidando dos meus porquinhos\nquando tudo ficou branco do nada.",
+            "quote3": "Do que você está falando?\nIsso é um milagre!",
+            "quote4": "Porcos?\\| Milagres?\\| Ahn?!",
+            "quote5": "Eu só estava penteando meu cabelo!",
+            "quote6": "Parece que fomos teletransportados\nde diferentes lugares para cá.",
+            "quote7": "Como?\\| Quem foi o desgraçado que fez isso?\nSe eu o encontrar, darei um belo tapa nele!",
+            "quote8": "Fica fria, mocinha!",
+            "quote9": "Mocinha? Meu nome é \\n[2]!"        
+        }
+    },
+
+
+    "actors": {
+        "actor1": "Reid",
+        "actor2": "Kasey",
+        "actor3": "Eliot"
+    }
+}

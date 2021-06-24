@@ -1,0 +1,23 @@
+[
+null,
+{"id":1,"displayType":0,"effectName":"HitPhysical","flashTimings":[{"frame":0,"duration":30,"color":[255,255,255,255]}],"name":"Hit Physical","offsetX":0,"offsetY":-24,"rotation":{"x":0,"y":0,"z":0},"scale":20,"soundTimings":[{"frame":0,"se":{"name":"Blow1","pan":0,"pitch":100,"volume":90}}],"speed":100,"alignBottom":true},
+{"id":2,"displayType":0,"effectName":"SlashPhysical","flashTimings":[{"frame":0,"duration":30,"color":[255,255,255,187]}],"name":"Slash Physical","offsetX":0,"offsetY":-24,"rotation":{"x":0,"y":0,"z":0},"scale":20,"soundTimings":[{"frame":0,"se":{"name":"Slash1","pan":0,"pitch":140,"volume":80}}],"speed":100,"alignBottom":true},
+{"id":3,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100,"alignBottom":false},
+{"id":4,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":5,"displayType":0,"effectName":"Laser03","flashTimings":[{"frame":0,"duration":30,"color":[255,255,255,255]}],"name":"Hurricane (Cast)","offsetX":0,"offsetY":-24,"rotation":{"x":0,"y":90,"z":0},"scale":50,"soundTimings":[{"frame":0,"se":{"name":"Saint6","pan":0,"pitch":150,"volume":90}},{"frame":4,"se":{"name":"Wind2","pan":0,"pitch":80,"volume":90}}],"speed":300,"alignBottom":true},
+{"id":6,"displayType":0,"effectName":"Laser03","flashTimings":[{"frame":0,"duration":30,"color":[255,255,255,255]}],"name":"Hurricane","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":50,"soundTimings":[{"frame":0,"se":{"name":"Wind11","pan":0,"pitch":100,"volume":90}},{"frame":4,"se":{"name":"Water3","pan":0,"pitch":100,"volume":90}},{"frame":19,"se":{"name":"Wind8","pan":0,"pitch":100,"volume":90}},{"frame":39,"se":{"name":"Wind2","pan":-60,"pitch":50,"volume":30}}],"speed":200,"alignBottom":false},
+{"id":7,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":8,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":9,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":10,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":11,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":12,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":13,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":14,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":15,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":16,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":17,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":18,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":19,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100},
+{"id":20,"displayType":0,"effectName":"","flashTimings":[],"name":"","offsetX":0,"offsetY":0,"rotation":{"x":0,"y":0,"z":0},"scale":100,"soundTimings":[],"speed":100}
+]

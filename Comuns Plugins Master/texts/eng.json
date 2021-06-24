@@ -1,0 +1,43 @@
+{
+
+    "scenes": {
+        "scene1": {
+            "quote1": "What the place is this?",
+            "quote2": "What happened? I was taking care of my little pigs\nwhen all of a sudden everything turned white.",
+            "quote3": "What are you talking about?\nThis is a miracle!",
+            "quote4": "Pigs?\\| Miracles?\\| What?!",
+            "quote5": "I was just combing my hair!",
+            "quote6": "Looks like we've been teleported\nhere from different places.",
+            "quote7": "How?\\| Who was the bastard who did this?\nIf I find him I'll give him a nice slap!",
+            "quote8": "Stay cold, girlie!",
+            "quote9": "Girlie? My name is \\n[2]!"
+        }
+    },
+
+    "interactions": {
+        "reid": {
+            "wave1": {
+                "quote1": "I'm a little lost, but let's try\nto figure out what to do."
+            }
+        },
+        "kasey": {
+            "wave1": {
+                "quote1": "Arg!\\| My hair is all messed up.",
+                "quote2": "Not even to teleport my hair comb along. "
+            }
+        },
+        "eliot": {
+            "wave1": {
+                "quote1": "This must be the goddess call."
+            }
+        }
+    },
+
+
+    "actors": {
+        "reid": "Reid",
+        "kasey": "Kasey",
+        "eliot": "Eliot"
+    }
+
+}
