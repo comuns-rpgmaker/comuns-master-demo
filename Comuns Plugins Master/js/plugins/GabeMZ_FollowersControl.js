@@ -1,7 +1,8 @@
 //============================================================================
 // Gabe MZ - Followers Control
 //----------------------------------------------------------------------------
-// 20/04/21 | Version: 1.0.4 | Followers jump bug fix
+// 24/06/21 | Version: 1.1.0 | Added new plugin command (Set Actor to Control)
+// 20/04/21 | Version: 1.0.1 | Followers jump bug fix
 // 26/08/20 | Version: 1.0.0 | Released
 //----------------------------------------------------------------------------
 // This plugin is released under the zlib License.
@@ -9,7 +10,7 @@
 
 /*:
  * @target MZ
- * @plugindesc [v1.0.4] Allows to control the followers via the event commands.
+ * @plugindesc [v1.1.0] Allows to control the followers via the event commands.
  * @author Gabe (Gabriel Nascimento)
  * @url https://github.com/comuns-rpgmaker/GabeMZ
  * @orderAfter GabeMZ_SmartFollowers
@@ -52,11 +53,21 @@
  * 
  * @command setFollowerControllID
  * @text Set Follower to Control
- * @desc Set a Follower by ID to control it the Move Route.
+ * @desc Set a follower by ID in the queue order to control it the Move Route.
  * 
  * @arg followerID
  * @text Follower ID
- * @desc Set the ID of a Follower to move it a Move Route. When 0 the effects will be received by the player.
+ * @desc Set the ID of a follower to move it a Move Route. When 0 the effects will be received by the player.
+ * @type number
+ * @default 0
+ * 
+ * @command setActorControlId
+ * @text Set Actor to Control
+ * @desc Set a follower by Actor ID to control it the Move Route.
+ * 
+ * @arg actorId
+ * @text Actor ID
+ * @desc Set the ID of the actor to move it a Move Route. Affects the player when the actor is not on the party. 
  * @type number
  * @default 0
  *
@@ -64,7 +75,7 @@
 
 /*:pt
  * @target MZ
- * @plugindesc Permite controlar os seguidores através do comando de evento Mover Evento.
+ * @plugindesc [v1.1.0] Permite controlar os seguidores através do comando de evento Mover Evento.
  * @author Gabe (Gabriel Nascimento)
  * @url https://github.com/comuns-rpgmaker/GabeMZ
  * 
@@ -107,11 +118,21 @@
  * 
  * @command setFollowerControllID
  * @text Set Follower to Control
- * @desc Defina o ID de um seguidor para receber comandos. 
+ * @desc Defina o ID de um seguidor pela ordem na fila para receber comandos. 
  * 
  * @arg followerID
  * @text Follower ID
- * @desc  Defina o ID de um seguidor para receber comandos. Quando for 0 o jogador receberá os comandos.
+ * @desc Defina o ID de um seguidor para receber comandos. Quando for 0 o jogador receberá os comandos.
+ * @type number
+ * @default 0
+ * 
+ * @command setActorControlId
+ * @text Set Actor to Control
+ * @desc Defina o ID de um ator para receber comandos. 
+ * 
+ * @arg actorId
+ * @text Actor ID
+ * @desc Defina o ID de um ator para receber comandos. Afeta o jogador quando o ator não estiver na equipe.
  * @type number
  * @default 0
  *
@@ -122,7 +143,7 @@ Imported.GMZ_FollowersControl = true;
 
 var GabeMZ                      = GabeMZ || {};
 GabeMZ.FollowersControl         = GabeMZ.FollowersControl || {};
-GabeMZ.FollowersControl.VERSION = [1, 0, 4];
+GabeMZ.FollowersControl.VERSION = [1, 1, 0];
 
 (() => {
 
@@ -144,12 +165,18 @@ GabeMZ.FollowersControl.VERSION = [1, 0, 4];
         GabeMZ.FollowersControl.followerID = parseInt(args.followerID);
     });
 
+    PluginManager.registerCommand(pluginName, "setActorControlId", args => {
+        const actorId = parseInt(args.actorId);
+        const followerId = $gamePlayer.followers().getFollowerIdByActorId(actorId);
+        GabeMZ.FollowersControl.followerID = followerId + 1;
+    });
+
     //-----------------------------------------------------------------------------
     // Game_Interpreter
     //
     // The interpreter for running event commands.
 
-    let _Game_Interpreter_character = Game_Interpreter.prototype.character;
+    const _Game_Interpreter_character = Game_Interpreter.prototype.character;
     Game_Interpreter.prototype.character = function(param) {
         if ($gameParty.inBattle()) {
             return null;
@@ -167,7 +194,7 @@ GabeMZ.FollowersControl.VERSION = [1, 0, 4];
     // The game object class for a follower. A follower is an allied character,
     // other than the front character, displayed in the party.
 
-    let _Game_Follower_update = Game_Follower.prototype.update;
+    const _Game_Follower_update = Game_Follower.prototype.update;
     Game_Follower.prototype.update = function() {
         if (GabeMZ.FollowersControl.followerControl) {
             Game_Character.prototype.update.call(this);
@@ -181,14 +208,19 @@ GabeMZ.FollowersControl.VERSION = [1, 0, 4];
     //
     // The wrapper class for a follower array.
 
-    let _Game_Followers_updateMove = Game_Followers.prototype.updateMove;
+    const _Game_Followers_updateMove = Game_Followers.prototype.updateMove;
     Game_Followers.prototype.updateMove = function() {
         if (!GabeMZ.FollowersControl.followerControl) _Game_Followers_updateMove.call(this);
     };
 
-    let _Game_Followers_jumpAll = Game_Followers.prototype.jumpAll;
+    const _Game_Followers_jumpAll = Game_Followers.prototype.jumpAll;
     Game_Followers.prototype.jumpAll = function() {
         if (!GabeMZ.FollowersControl.followerControl) _Game_Followers_jumpAll.call(this);
     };
+
+    Game_Followers.prototype.getFollowerIdByActorId = function(actorId) {
+        const followerId = this.data().indexOf(this.data().filter(follower => follower.actor() && follower.actor().actorId() == actorId)[0])
+        return followerId;
+    }
 
 })();
