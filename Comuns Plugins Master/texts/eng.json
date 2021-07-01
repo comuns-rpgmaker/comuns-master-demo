@@ -1,5 +1,21 @@
 {
 
+    "names": {
+        "reid"  : "Reid",
+        "kasey" : "Kasey",
+        "eliot" : "Eliot",
+        "reisen": "Reisen",
+        "jorge" : "Jorge",
+        "kyo"   : "Kyo",
+        "syu"   : "Syureri"
+    },
+
+    "menu": {
+        "options": {
+            "fogEffects": "Fog Effects"
+        }
+    },
+
     "scenes": {
         "scene1": {
             "quote1": "What the place is this?",
@@ -33,11 +49,45 @@
         }
     },
 
+    "floatingInfos": {
+        "fog": {
+            "opacity" : "Fog Opacity",
+            "tone"    : "Fog Tone",
+            "rain"    : "Rain Fog",
+            "parallel": "Parallel Effect"
+        }
+    },
 
-    "actors": {
-        "reid": "Reid",
-        "kasey": "Kasey",
-        "eliot": "Eliot"
+    "fogEffects": {
+        "setOpacity": {
+            "quote1" : "You can change the fog opacity as you like and\nset a runtime for the transition from the current\nvalue to what is stipulated.",
+            "option1": "Reduce Opacity",
+            "option2": "Increase Opacity",
+            "option3": "Reset Opacity"
+        }, 
+        "setTone": {
+            "quote1" : "It's possible to change the tone of the fogs like the\nopacity. You can set a hue with the\n[\\c[2]Red\\c[0], \\c[3]Green\\c[0], \\c[1]Blue\\c[0], \\c[7]Gray\\c[0]] scheme.",
+            "option1": "Tint Fog",
+            "option2": "Reset Fog Tone",
+            "option3": "Tint Rain",
+            "option4": "Reset Rain Tone"
+        },
+        "setRain": {
+            "quote1" : "You can create beautiful rain effects using fogs.\nIt's all a matter of making the right settings.",
+            "option1": "Start Rain",
+            "option2": "Stop Rain"
+        },
+        "setParallel": {
+            "quote1" : "You can use parallel events that change the hue and\nopacity of the fogs to create amazing effects and\ncombinations.",
+            "option1": "Parallel Effect ON",
+            "option2": "Parallel Effect OFF"
+        }
+    },
+
+    "languages": {
+        "quote1" : "Do you want to change the game language?",
+        "eng": "English",
+        "ptbr"  : "Português"
     }
 
 }
