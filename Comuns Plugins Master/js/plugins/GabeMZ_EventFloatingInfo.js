@@ -16,8 +16,11 @@
  * @help Gabe MZ - Event Floating Info
  *  - This plugin is released under the zlib License.
  * 
- * This plugin provides a option to display floating infos above the events, either 
- * text or icons.
+ * This plugin provides a option to display floating infos above the events
+ * either text or icons.
+ * 
+ * NOTE: Please note that this plugin is still under development and hasn't been 
+ * released yet. Do not use it in your project for now.
  * 
  */
 

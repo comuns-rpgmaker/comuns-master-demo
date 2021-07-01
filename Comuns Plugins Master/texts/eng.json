@@ -11,9 +11,52 @@
     },
 
     "menu": {
+        "item"     : "Item",
+        "skill"    : "Skill",
+        "equip"    : "Equip",
+        "status"   : "Status",
+        "formation": "Formation",
+        "save": {
+            "command": "Save",
+            "file": "File",
+            "autoSave": "Autosave",
+            "saveM": "Which file would you like to save?",
+            "loadM": "Which file would you like to load?"
+        },
         "options": {
+            "command": "Options",
+            "alwaysDash": "Aways Dash",
+            "commandRemember": "Command Remember",
+            "touchUI": "Touch UI",
+            "bgmVol": "BGM Volume",
+            "bgsVol": "BGS Volume",
+            "meVol": "ME Volume",
+            "seVol": "SE Volume",
             "fogEffects": "Fog Effects"
-        }
+        },
+        "gameEnd" : "Game End",
+        "keyItem" : "Key Item",
+        "weapon"  : "Weapon",
+        "armor"   : "Armor",
+        "equipC"  : "Equip",
+        "optimize": "Optimize",
+        "clear"   : "Clear",
+        "buy"     : "Buy",
+        "sell"    : "Sell",
+        "newGame" : "New Game",
+        "continue": "Continue",
+        "toTitle" : "To Title",
+        "cancel"  : "Cancel"
+    },
+
+
+    "basicStatuses": {
+        "level": "Level",
+        "lvl"  : "Lvl",
+        "hp"   : "HP",
+        "mp"   : "MP",
+        "tp"   : "TP",
+        "exp"  : "EXP"
     },
 
     "scenes": {

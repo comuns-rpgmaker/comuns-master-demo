@@ -11,9 +11,52 @@
     },
 
     "menu": {
+        "item"     : "Itens",
+        "skill"    : "Habilidades",
+        "equip"    : "Equipamento",
+        "status"   : "Condições",
+        "formation": "Formação",
+        "save": {
+            "command": "Salvar",
+            "file": "Arquivo",
+            "autoSave": "Salvamento Automático",
+            "saveM": "Em qual arquivo deseja salvar?",
+            "loadM": "Qual arquivo deseja carregar?"
+        },
         "options": {
+            "command": "Opções",
+            "alwaysDash": "Sempre Correr",
+            "commandRemember": "Lembrar Comando",
+            "touchUI": "Interface de Toque",
+            "bgmVol": "Volume da Música",
+            "bgsVol": "Volume dos Sons de Ambiente",
+            "meVol": "Volume dos Efeitos Musicais",
+            "seVol": "Volume dos Efeitos Sonoros",
             "fogEffects": "Efeitos de Névoa"
-        }
+        },
+        "gameEnd" : "Sair",
+        "keyItem" : "Itens Chave",
+        "weapon"  : "Arma",
+        "armor"   : "Armadura",
+        "equipC"  : "Equipar",
+        "optimize": "Otimizar",
+        "clear"   : "Limpar",
+        "buy"     : "Comprar",
+        "sell"    : "Vender",
+        "newGame" : "Novo Jogo",
+        "continue": "Continuar",
+        "toTitle" : "Voltar para a Tela de Título",
+        "cancel"  : "Cancelar"
+    },
+
+
+    "basicStatuses": {
+        "level": "Nível",
+        "lvl"  : "Nv",
+        "hp"   : "HP",
+        "mp"   : "MP",
+        "tp"   : "TP",
+        "exp"  : "EXP"
     },
 
     "scenes": {
