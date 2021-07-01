@@ -1,7 +1,7 @@
 //============================================================================
 // Gabe MZ - Fog Effects
 //----------------------------------------------------------------------------
-// 29/06/21 | Version: 2.1.0 | Added opacity and tone control plugin commands
+// 29/06/21 | Version: 2.1.0 | Added opacity and tone control
 // 14/01/21 | Version: 2.0.2 | PT-BR header typo fix
 // 03/09/20 | Version: 2.0.1 | Scene return bug fix
 // 02/09/20 | Version: 2.0.0 | Completely rewritten code

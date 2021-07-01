@@ -9,7 +9,7 @@
 
 /*:
  * @target MZ
- * @plugindesc [v1.0.1] Improved message system.
+ * @plugindesc [v1.0.1b] Improved message system.
  * @author Gabe (Gabriel Nascimento)
  * @url http://patreon.com/gabriel_nfd
  * @orderAfter VisuMZ_1_MessageCore
@@ -25,6 +25,9 @@
  * 
  * For support and new plugins join our Discord server: 
  * https://discord.gg/GG85QRz
+ * 
+ * NOTE: This version of plugin [1.0.1b] is still under development and 
+ * hasn't been released yet. Do not use it in your project for now.
  * 
  * @param defaultSettings
  * @text Message Default Settings
