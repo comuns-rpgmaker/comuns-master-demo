@@ -1,7 +1,7 @@
 [
 null,
 {"id":1,"expanded":false,"name":"Altar of Invocation","order":3,"parentId":2,"scrollX":712,"scrollY":702},
-{"id":2,"expanded":true,"name":"Hub World","order":1,"parentId":0,"scrollX":1160,"scrollY":546},
+{"id":2,"expanded":true,"name":"Hub World","order":1,"parentId":0,"scrollX":1160,"scrollY":979.3333333333334},
 {"id":3,"expanded":false,"name":"First Town","order":4,"parentId":2,"scrollX":917.3333333333334,"scrollY":1398},
 {"id":4,"expanded":false,"name":"Floating Temple","order":5,"parentId":2,"scrollX":712,"scrollY":642},
 null,

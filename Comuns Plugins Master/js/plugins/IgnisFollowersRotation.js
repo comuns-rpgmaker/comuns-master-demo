@@ -1,7 +1,7 @@
 //==========================================================================
 // Ignis - Followers Rotation
 //----------------------------------------------------------------------------
-// 02/08/20 | Version: 1.0.0
+// 01/07/20 | Version: 1.0.1 | Prevent rotation when a event is running.
 // This software is released under the zlib License.
 //============================================================================
 
@@ -57,7 +57,7 @@
 // DON'T MODIFY THIS PART!!!
 var Ignis = Ignis || {};
 Ignis.IgnisFollowersRotation = Ignis.IgnisFollowersRotation || {};
-Ignis.IgnisFollowersRotation.VERSION = [1, 0, 0];
+Ignis.IgnisFollowersRotation.VERSION = [1, 0, 1];
 
 function frontMember(id) {
     return $gameParty.members()[0] == $gameActors.actor(id);
@@ -85,11 +85,13 @@ function frontMember(id) {
             }
             return;
         }
-        if (Input.isTriggered(Ignis.IgnisFollowersRotation.ButtonUp)) {
-            this.rotatePartyUp();
-        }
-        if (Input.isTriggered(Ignis.IgnisFollowersRotation.ButtonDown)) {
-            this.rotatePartyDown();
+        if (!$gameMap.isEventRunning()) {
+            if (Input.isTriggered(Ignis.IgnisFollowersRotation.ButtonUp)) {
+                this.rotatePartyUp();
+            }
+            if (Input.isTriggered(Ignis.IgnisFollowersRotation.ButtonDown)) {
+                this.rotatePartyDown();
+            }
         }
     }
     Game_Followers.prototype.rotatePartyUp = function () {
