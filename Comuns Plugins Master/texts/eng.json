@@ -98,7 +98,8 @@
             "tone"    : "Fog Tone",
             "rain"    : "Rain Fog",
             "parallel": "Parallel Effect"
-        }
+        },
+        "language": "Change Language"
     },
 
     "fogEffects": {

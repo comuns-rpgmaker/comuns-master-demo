@@ -98,7 +98,8 @@
             "tone"    : "Tom da Névoa",
             "rain"    : "Névoa de Chuva",
             "parallel": "Efeito Paralelo"
-        }
+        }, 
+        "language": "Mudar Idioma"
     },
 
     "fogEffects": {
