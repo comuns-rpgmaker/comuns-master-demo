@@ -1,0 +1,7 @@
+[
+null,
+{"id":1,"battlerName":"Squire_Female","characterIndex":0,"characterName":"actors/$Reid_Character","classId":1,"equips":[2,14,0,2,0],"faceIndex":0,"faceName":"actors/Reid_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Squire","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Lancer_Female","characterIndex":0,"characterName":"actors/$Kasey_Character","classId":2,"equips":[6,0,19,6,0],"faceIndex":0,"faceName":"actors/Kasey_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lancer","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"Knight_Male","characterIndex":0,"characterName":"actors/$Eliot_Character","classId":3,"equips":[10,0,0,6,0],"faceIndex":0,"faceName":"actors/Eliot_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Knight","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"Fighter Female Base 1B[anim]","characterIndex":0,"characterName":"actors/$Eliot_Character","classId":3,"equips":[10,0,0,6,0],"faceIndex":0,"faceName":"actors/Eliot_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Fighter","nickname":"","note":"","profile":""}
+]
