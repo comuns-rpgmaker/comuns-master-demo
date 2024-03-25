@@ -1,6 +1,0 @@
-[
-null,
-{"id":1,"battlerName":"Reid_BattleSpritesheet","characterIndex":0,"characterName":"actors/$Reid_Character","classId":1,"equips":[2,14,0,2,0],"faceIndex":0,"faceName":"actors/Reid_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Reid","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"Kasey_BattleSpritesheet","characterIndex":0,"characterName":"actors/$Kasey_Character","classId":2,"equips":[7,0,19,6,0],"faceIndex":0,"faceName":"actors/Kasey_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Kasey","nickname":"","note":"","profile":""},
-{"id":3,"battlerName":"Eliot_BattleSpritesheet","characterIndex":0,"characterName":"actors/$Eliot_Character","classId":3,"equips":[10,0,0,6,0],"faceIndex":0,"faceName":"actors/Eliot_Face","traits":[],"initialLevel":1,"maxLevel":99,"name":"Eliot","nickname":"","note":"","profile":""}
-]
