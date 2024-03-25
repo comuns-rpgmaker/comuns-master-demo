@@ -1,0 +1,138 @@
+{
+
+    "names": {
+        "reid"  : "Reid",
+        "kasey" : "Kasey",
+        "eliot" : "Eliot",
+        "reisen": "Reisen",
+        "jorge" : "Jorge",
+        "kyo"   : "Kyo",
+        "syu"   : "Syureri"
+    },
+
+    "menu": {
+        "item"     : "Itens",
+        "skill"    : "Habilidades",
+        "equip"    : "Equipamento",
+        "status"   : "Condições",
+        "formation": "Formação",
+        "save": {
+            "command": "Salvar",
+            "file": "Arquivo",
+            "autoSave": "Salvamento Automático",
+            "saveM": "Em qual arquivo deseja salvar?",
+            "loadM": "Qual arquivo deseja carregar?"
+        },
+        "options": {
+            "command": "Opções",
+            "alwaysDash": "Sempre Correr",
+            "commandRemember": "Lembrar Comando",
+            "touchUI": "Interface de Toque",
+            "bgmVol": "Volume da Música",
+            "bgsVol": "Volume dos Sons de Ambiente",
+            "meVol": "Volume dos Efeitos Musicais",
+            "seVol": "Volume dos Efeitos Sonoros",
+            "fogEffects": "Efeitos de Névoa"
+        },
+        "gameEnd" : "Sair",
+        "keyItem" : "Itens Chave",
+        "weapon"  : "Arma",
+        "armor"   : "Armadura",
+        "equipC"  : "Equipar",
+        "optimize": "Otimizar",
+        "clear"   : "Limpar",
+        "buy"     : "Comprar",
+        "sell"    : "Vender",
+        "newGame" : "Novo Jogo",
+        "continue": "Continuar",
+        "toTitle" : "Voltar para a Tela de Título",
+        "cancel"  : "Cancelar",
+        "fight"   : "Lutar",
+        "escape"  : "Fugir"
+    },
+
+    "basicStatuses": {
+        "level": "Nível",
+        "lvl"  : "Nv",
+        "hp"   : "HP",
+        "mp"   : "MP",
+        "tp"   : "TP",
+        "exp"  : "EXP"
+    },
+
+    "scenes": {
+        "scene1": {
+            "quote1": "Que lugar é esse?",
+            "quote2": "O que aconteceu? Eu estava cuidando dos meus porquinhos\nquando tudo ficou branco do nada.",
+            "quote3": "Do que você está falando?\nIsso é um milagre!",
+            "quote4": "Porcos?\\| Milagres?\\| Ahn?!",
+            "quote5": "Eu só estava penteando meu cabelo!",
+            "quote6": "Parece que fomos teletransportados\nde diferentes lugares para cá.",
+            "quote7": "Como?\\| Quem foi o desgraçado que fez isso?\nSe eu o encontrar, darei um belo tapa nele!",
+            "quote8": "Fica fria, mocinha!",
+            "quote9": "Mocinha? Meu nome é \\n[2]!"        
+        }
+    },
+
+    "interactions": {
+        "reid": {
+            "wave1": {
+                "quote1": "I'm a little lost, but let's try\nto figure out what to do."
+            }
+        },
+        "kasey": {
+            "wave1": {
+                "quote1": "Arg!\\| My hair is all messed up.",
+                "quote2": "Not even to teleport my hair comb along. "
+            }
+        },
+        "eliot": {
+            "wave1": {
+                "quote1": "This must be the goddess call."
+            }
+        }
+    },
+
+    "floatingInfos": {
+        "fog": {
+            "opacity" : "Opaciadde da Névoa",
+            "tone"    : "Tom da Névoa",
+            "rain"    : "Névoa de Chuva",
+            "parallel": "Efeito Paralelo"
+        }, 
+        "language": "Mudar Idioma"
+    },
+
+    "fogEffects": {
+        "setOpacity": {
+            "quote1" : "Você pode mudar a opacidade da névoa como quiser e também\ndefinir um tempo específico para executar a transição\ndos valores estipulados.",
+            "option1": "Reduzir Opacidade",
+            "option2": "Aumentar Opacidade",
+            "option3": "Resetar Opacidade"
+        }, 
+        "setTone": {
+            "quote1" : "É possível mudar os tons das névoas assim como a\nopacidade. Você pode definir as cores dentro do esquema\n[\\c[2]Vermelho\\c[0], \\c[3]Verde\\c[0], \\c[1]Azul\\c[0], \\c[7]Cinza\\c[0]].",
+            "option1": "Tonalizar Névoa",
+            "option2": "Resetar Toanlidade da Névoa",
+            "option3": "Tonalizar Chuva",
+            "option4": "Resetar Tonalidade da Chuva"
+        },
+        "setRain": {
+            "quote1" : "Você pode criar belos efeitos de chuva com as névoas.\nÉ tudo uma questão de saber configurar corretamente.",
+            "option1": "Iniciar Chuva",
+            "option2": "Parar Chuva"
+        },
+        "setParallel": {
+            "quote1" : "Você pode usar eventos palelos para mudar os tons e a\ndas opacidade das névoas de tempos em tempos para criar\nefeitos e combinações únicas.",
+            "option1": "Ativar Efeito Paralelo",
+            "option2": "Desativar Efeito Paralelo"
+        }
+    },
+
+    "languages": {
+        "quote1" : "Você quer mudar o idioma do jogo?",
+        "eng": "English",
+        "ptbr"  : "Português"
+    }
+
+}
